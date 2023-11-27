@@ -1,12 +1,19 @@
 # Koth-Hacker-Vs-Hacker_Techniques-
 TryHackMe KOTH Cheatsheet  
------------------------------  
+-----------------------------   
+<div align="center">
+
+![3](https://media.giphy.com/media/oVvhEYvWDvE1G/giphy.gif)
+</div>
+
 Description:
 In the King of the Hill (KoTH) challenge, your goal is to compromise the target machine and gain access to the coveted /root/king.txt file on Linux machines or C:\king.txt (or C:\Users\Administrator\king-server\king.txt) on Windows machines. Once you've successfully breached the system, your task is to maintain access and defend the king file from other players.
 
 -----------------------------  
+<div align="center">
 
-
+![3](https://media.giphy.com/media/xsCevAab5ufj37BeGR/giphy.gif)
+</div>
 
 ## --> [ Hacker Vs Hacker ] <--
  
@@ -52,7 +59,11 @@ https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell
 ``` 
 https://gtfobins.github.io/ 
 ```
+## Finding Binaries and flags  
+<div align="center">
 
+![3](https://media.giphy.com/media/xT8qAXT3f4sZTvjqZq/giphy.gif)
+</div>
 
 - If you're looking for root permissions Binaries:
 ```
