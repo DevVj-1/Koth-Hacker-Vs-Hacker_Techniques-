@@ -177,6 +177,11 @@ if(isset($_REQUEST['cmd'])){
 
 ## ---> Shell Persistence using SSH <---
 
+<div align="center">
+
+![3](https://media.giphy.com/media/xT8qB2HYA1vVSxooSY/giphy.gif)
+</div>
+
 **Shell Persistence using SSH - Attacker Terminal & Target Terminal**
 
 Step 1: Navigate to the SSH directory on your Target Terminal - 
