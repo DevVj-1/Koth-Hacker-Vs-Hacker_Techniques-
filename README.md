@@ -1,4 +1,4 @@
-# Koth-👨🏻‍💻Hacker-Vs-Hacker👨🏻‍💻-Techniques
+# Koth 👨🏻‍💻Hacker Vs Hacker👨🏻‍💻 Techniques
 TryHackMe KOTH Cheatsheet  
 -----------------------------   
 <div align="center">
