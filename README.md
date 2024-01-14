@@ -7,7 +7,7 @@ TryHackMe KOTH Cheatsheet
 </div>
 
 ***Description:***
-In the King of the Hill (KoTH) challenge, your goal is to compromise the target machine and gain access to the coveted /root/king.txt file on Linux machines or C:\king.txt (or C:\Users\Administrator\king-server\king.txt) on Windows machines. Once you've successfully breached the system, your task is to maintain access and defend the king file from other players.
+In the King of the Hill (KoTH) Attack-Defence challenge, your goal is to compromise the target machine and gain access to the coveted /root/king.txt file on Linux machines or C:\king.txt (or C:\Users\Administrator\king-server\king.txt) on Windows machines. Once you've successfully breached the system, your task is to maintain access and defend the king file from other players.
 
 -----------------------------  
 <div align="center">
