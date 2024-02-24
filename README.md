@@ -249,3 +249,11 @@ To reconnect with the key we executed
 ssh -i key.rsa root@0.0.0.0
 
 ```
+
+## Windows MS17-010 exploit ◆
+
+```
+https://github.com/3ndG4me/AutoBlue-MS17-010
+
+```
+
