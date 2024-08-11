@@ -223,8 +223,13 @@ chmod 600 id_rsa
 **Attacker Terminal Step 4.1: Send authorized_keys to the target system.:)**
 
 [Target Terminal] Step 5: Set permissions for authorized_keys -
+
 ```
-chmod 700 authorized_keys
+chmod 700 /root/.ssh
+```
+
+```
+chmod 600 /root/.ssh/authorized_keys
 ```
 
 [Attacker Terminal] Step 6: Connect to the target system using the generated key - 
