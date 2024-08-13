@@ -85,13 +85,17 @@ https://gtfobins.github.io/
 ```
 3) find / -perm /4000 2>/dev/null
 ```
+```
+4) find / -type f -user root -perm -u=s 2>/dev/null
+```
+
 - ***If you're looking for Binaries that has Sudo permissions:***
 ```
 sudo -l 
 ```
 - ***If you're looking for Flags:***
 ```
-1) find / -name "user.txt" 2>/dev/null
+1) find / -type f -name "user.txt" 2>/dev/null
 ```
 ```
 2) find / -name root.txt 2>/dev/null 
