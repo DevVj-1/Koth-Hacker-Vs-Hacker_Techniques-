@@ -316,4 +316,5 @@ hydra -L users.txt -P /usr/share/wordlists/rockyou.txt 10.0.0.0 ssh
 ![3](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXoyYTFucjYyaWtzMHhtdHgzbGYyOTRpMmozNDZnb3hsdjk1anZtbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UqxVRm1IaaIGk/giphy.gif)
 </div>
 
-- **[MSF-Persistence-Backdoor](https://github.com/DevVj-1/Koth-Hacker-Vs-Hacker_Techniques-/blob/main/MSF-Persistence.md)**: 
+- **[MSF-Persistence-Backdoor](https://github.com/DevVj-1/Koth-Hacker-Vs-Hacker_Techniques-/blob/main/MSF-Persistence.md)**:
+- **[Metasploit Unleashed](https://www.offsec.com/metasploit-unleashed/)**: Free Ethical Hacking Course 👁️⃤
