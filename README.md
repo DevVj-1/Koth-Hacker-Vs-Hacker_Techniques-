@@ -318,3 +318,17 @@ hydra -L users.txt -P /usr/share/wordlists/rockyou.txt 10.0.0.0 ssh
 
 - **[MSF-Persistence-Backdoor](https://github.com/DevVj-1/Koth-Hacker-Vs-Hacker_Techniques-/blob/main/MSF-Persistence.md)**:
 - **[Metasploit Unleashed](https://www.offsec.com/metasploit-unleashed/)**: More Hacking Tricks and commands 👁️⃤
+
+## **What This Command Indicates:**
+```
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File malicious.ps1
+```
+
+The command shows that PowerShell was used to execute a script named malicious.ps1 with potentially harmful intentions. Here's a breakdown:
+
+* powershell.exe: Launches the PowerShell environment.
+* -NoProfile: Runs PowerShell without loading user profiles to avoid detection or restrictions.
+* -ExecutionPolicy Bypass: Bypasses any execution policy to allow running scripts, even if restricted.
+* -File malicious.ps1: Executes the specified script, which is likely malicious.
+
+This is a common technique used in attacks like fileless malware or script-based exploits.
