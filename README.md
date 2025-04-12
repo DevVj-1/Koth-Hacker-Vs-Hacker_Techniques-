@@ -1,4 +1,8 @@
 # Koth 👨🏻‍💻Hacker Vs Hacker👨🏻‍💻 Techniques
+
+![12 04 2025_10 08 00_REC](https://github.com/user-attachments/assets/673f14ea-9a77-4fc0-9295-c666d5f4ed9b)
+
+
 TryHackMe KOTH Cheatsheet  
 -----------------------------   
 <div align="center">
