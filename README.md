@@ -20,6 +20,12 @@ In the King of the Hill (KoTH) Attack-Defence challenge, your goal is to comprom
 </div>
 
 ## --> [ Hacker Vs Hacker ] <--
+
+
+- ***You can locate any file, by using the following command.*** 
+
+![Screenshot 2025-05-29 102115](https://github.com/user-attachments/assets/866b8228-21fb-46e3-a65c-aba95bb3490d)
+
  
 - ***you can check who is on the machine, by using the following command.*** 
 ```
